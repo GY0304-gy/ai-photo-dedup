@@ -1,0 +1,12 @@
+# Default config
+similarity:
+  threshold: 0.85
+  algorithm: phash
+
+processing:
+  workers: 4
+  batch_size: 32
+
+output:
+  keep_strategy: original
+  move_to_folder: ./duplicates
